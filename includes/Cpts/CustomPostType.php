@@ -5,7 +5,7 @@ namespace PagarmeSplitPayment\Cpts;
 use \Carbon_Fields\Container\Container;
 
 class CustomPostType {
-    public $name, $singularName, $slug, $fields;
+    public $name, $singularName, $slug, $fields, $external;
 
     public function __construct($name, $singularName, $slug, $fields = [], $external = false)
     {
