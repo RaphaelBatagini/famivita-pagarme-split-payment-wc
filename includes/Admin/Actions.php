@@ -101,8 +101,8 @@ class Actions
     {
         if (
             !function_exists('wc_get_logger')
-            || !class_exists('WC_Pagarme_API')
-            || !str_contains($requestedUrl, \WC_Pagarme_API::API_URL)
+            || !class_exists('ZCWC_Pagarme_API')
+            || !str_contains($requestedUrl, \ZCWC_Pagarme_API::API_URL)
         ) {
             return;
         }
