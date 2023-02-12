@@ -1,5 +1,5 @@
-# Pagar.me Split Payment for WooCommerce
-Allow to define partners to split payment with using Pagar.me payment gateway.
+# [FAMIVITA] Pagar.me Split Payment for WooCommerce
+Define partners to split payment with using Pagar.me payment gateway.
 
 ## Requirements
 - [Woocommerce plugin](https://github.com/woocommerce/woocommerce);
