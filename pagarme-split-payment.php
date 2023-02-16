@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Famivita - Pagar.me Split Payment for WooCommerce
  * Description: Define partners to split payment with using Pagar.me payment gateway.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Raphael Batagini
  * Author URI: https://github.com/RaphaelBatagini/
  * Text Domain: pagarme-split-payment
