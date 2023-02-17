@@ -120,7 +120,7 @@ class Actions
         }, ARRAY_FILTER_USE_KEY);
 
         $filteredHttpHeaders = array_filter($httpArgs['headers'], function ($key) {
-            return !str_contains($key, 'api_key');
+            return strpos($key, 'api_key') === false;
         }, ARRAY_FILTER_USE_KEY);
 
         $allowedResponseItems = [
