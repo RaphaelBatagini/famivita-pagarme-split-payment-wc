@@ -112,7 +112,8 @@ class Actions
             'postback_url',
             'metadata',
             'payment_method',
-            'split_rules'
+            'split_rules',
+            'customer',
         ];
 
         $filteredHttpBody = array_filter($httpArgs['body'], function ($key) use ($allowedBodyItems) {
